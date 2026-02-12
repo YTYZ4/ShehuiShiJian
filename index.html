@@ -279,6 +279,7 @@
       <button class="btn-secondary" id="modeDeep">深读模式</button>
       <a href="#log"><button class="btn-ghost">现场记录</button></a>
       <a href="#spots"><button class="btn-ghost">点位卡</button></a>
+      <a href="#music"><button class="btn-ghost">🎵 主题曲</button></a>
     </div>
   </div>
 </header>
@@ -421,6 +422,36 @@
               <div class="progress-wrap"><div class="progress-bar" id="bar"></div></div>
             </div>
           </details>
+        </div>
+      </section>
+
+      <section class="card" id="music" style="margin-top:20px;">
+        <div class="card-head">
+          <h2>主题音乐</h2>
+        </div>
+        <div class="card-body">
+          <div class="desc">
+            这首歌在调研过程中多次出现：布宫广场的街头艺人、八廓街的商贩、甚至布达拉宫内的讲解员都在播放它。<br>
+            歌曲名：《拉萨夜雨》，原唱：泽旺多吉。
+          </div>
+
+          <!-- 网易云外链播放器（不自动播放） -->
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0"
+            width="100%" height="86"
+            src="https://music.163.com/outchain/player?type=2&id=5258529&auto=0&height=66">
+          </iframe>
+
+          <div class="action-row" style="margin-top:10px;">
+            <button class="btn-secondary" style="font-size:12px; padding:8px 12px;"
+              onclick="window.open('https://music.163.com/song?id=5258529','_blank')">在网易云打开</button>
+
+            <button class="btn-ghost" style="font-size:12px; padding:8px 12px;"
+              onclick="copyTxt('https://music.163.com/song?id=5258529')">复制链接</button>
+          </div>
+
+          <div style="font-size:12px; color:#999; margin-top:6px;">
+            如果播放器加载慢：用“打开/复制链接”即可。
+          </div>
         </div>
       </section>
 
